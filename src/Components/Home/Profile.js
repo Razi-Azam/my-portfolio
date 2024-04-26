@@ -28,7 +28,7 @@ function Profile(props) {
                     <i className="fa-brands fa-twitter"></i>
                 </a>
                 <a
-                href="https://www.linkedin.com/in/razi-%E0%A4%B0%E0%A4%9C%E0%A4%BC%E0%A5%80-47750087/"
+                href="https://www.linkedin.com/in/razi-azam-47750087/"
                 target="_blank"
                 rel="noreferrer noopener"
                 >
@@ -42,14 +42,14 @@ function Profile(props) {
                 <i className="fa fa-brands fa-quora"></i>
                 </a>
                 <a
-                href="https://z-p42.www.instagram.com/razi_raagarez/"
+                href="https://www.instagram.com/coderrazi/"
                 target="_blank"
                 rel="noreferrer noopener"
                 >
                 <i className="fa fa-brands fa-instagram"></i>
                 </a>
                 <a
-                href="https://youtube.com/shorts/4urgrdQ5qTc?feature=share"
+                href="https://youtube.com/@coderrazi"
                 target="_blank"
                 rel="noreferrer noopener"
                 >
