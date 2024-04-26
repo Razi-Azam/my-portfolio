@@ -1,0 +1,40 @@
+.Navigation{
+    display: flex;
+    position: fixed;
+    margin-left: -10rem;
+    transform: rotate(90deg);
+    margin-bottom: 19rem;
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    width: max-content;
+    background: rgba(0, 4, 7, 0.295);
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    color: aliceblue;
+    border-radius: 2rem 1rem 1rem 2rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 1px 1px 1px cornsilk;
+}
+
+.Navigation a {
+    background: transparent;
+    padding: 0.7rem;
+    border-radius: 15%;
+    display: flex;
+    color: cornsilk;
+    font-size: 1.4rem;
+    transform: rotate(-90deg);
+}
+
+.Navigation a:hover{
+    color: rgb(2, 14, 12);
+    border-radius: 20px;
+    background-color: rgba(240, 255, 255, 0.815);
+}
+
+.Navigation a.active{
+    color: rgb(2, 14, 12);
+    border-radius: 20px;
+    background-color: rgba(240, 255, 255, 0.815);
+}

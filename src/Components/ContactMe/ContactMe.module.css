@@ -1,0 +1,6 @@
+.contactMeContainer{
+    height: 200px;
+    background-color: #253898;
+    background-image: linear-gradient(to bottom right, #161f4d, #3f24ac);
+    color: aliceblue;
+}

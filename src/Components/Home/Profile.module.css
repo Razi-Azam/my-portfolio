@@ -1,0 +1,160 @@
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 45rem;
+    min-height: fit-content;
+    background-color: #0a0827;
+    clip-path: ellipse(65% 64% at 50% 22%);
+}
+
+.profileParent{
+    display: flex;
+    color: azure;
+    align-items: center;
+}
+
+.profileDetailsName{
+    font-family: "Poppins SemiBold";
+    font-size: 25px;
+}
+
+.profileDetailsRole {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 26px 0;
+}
+
+.profileDetailsRole h1{
+    font-family: cursive;
+    font-size: 46px;
+}
+
+.primaryText{
+    color: var(--white);
+}
+
+.highlightedText{
+    color: var(--dark-orange);
+}
+
+.profileRoleTagline{
+    font-size: 20px;
+    margin: 6px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.profileOptions .highlightedBtn{
+    margin: 0 0 0 28px;
+}
+
+.profileOptions .highlightedBtn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+
+.profilePicture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 1px 1px 0px rgb(97, 212, 228); */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 0px 0 100px;
+}
+
+.profilePictureBackground {
+    height: 93%;
+    width: 93%;
+    background-image: url('../../assets/Home/myProfilePic.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profilePictureBackground:hover {
+    transform: scale(1.07);
+    transition: 1s ease;
+}
+
+.colz .colzIcon i {
+    color: #F4BE2C;
+    padding: 12px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.colz .colzIcon i:hover{
+    text-shadow: 0px 2px 8px rgb(223, 216, 191);
+    /* color: #c99c22; */
+    transform: scale(1.6);
+    transition: 0.2s ease-in;
+}
+
+/* for ipad */
+@media screen and (max-width: 1110px) {
+    .profilePicture {
+        margin: 0 0px 0 80px;
+    }
+    .profileDetailsName{
+        font-size: 20px;
+    }
+    .profileDetailsRole .primaryText{
+        font-size: 12px;
+    }
+    .profileOptions .btn{
+        width:120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+
+@media screen and (max-width: 910px) {
+    .profilePicture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    .profilePicture{
+        /* Here, the !important keyword is used to override the previous margin i.e. 0 0 4px */
+        margin: 0 !important; 
+    }
+    .profileParent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profileOptions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profileDetails{
+        margin: 25px 0 0;
+    }
+    .profileOptions .highlightedBtn{
+        margin: 0 !important;
+    }
+    .profileOptions, .profileDetailsRole{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .profilePicture {
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profileDetails{
+        width: 90%;
+        
+    }
+}

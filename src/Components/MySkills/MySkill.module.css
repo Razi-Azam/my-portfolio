@@ -1,0 +1,72 @@
+.mySkillContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+    background: #CAD5E2;
+    color: rgb(5, 14, 22);
+    opacity: 1;
+    background-image:  radial-gradient(#242B2E 0.45px, transparent 0.45px), radial-gradient(#242B2E 0.45px, #e5e5f7 0.45px);
+    background-size: 18px 18px;
+    background-position: 0 0,9px 9px;
+}
+
+.parentCard{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 9rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    background: #242B2E;
+    color:aliceblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(87, 82, 82, 0.692);
+}
+
+.header{
+    margin-bottom: 10rem;
+}
+
+.card i{
+    font-size: 80px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: cornsilk;
+}
+
+.card h3{
+    font-size: 19px;
+    color: cornsilk;
+}
+
+.card:hover{
+    transform: scale(1.07);
+    transition: 1s ease-in;
+}
+
+.cSharp{
+    display: flex;
+}
+
+.cSharp i{
+    display: flex;
+    font-size: 55px;
+    margin: -2px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}

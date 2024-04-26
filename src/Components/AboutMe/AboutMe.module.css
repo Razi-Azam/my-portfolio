@@ -1,0 +1,39 @@
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+    background: #CAD5E2;
+    color: rgb(5, 14, 22);
+}
+
+.card {
+    height: 30rem;
+    background: transparent;
+    color: black;
+    margin-top: 2rem;
+}
+
+.header{
+    text-align: center;
+}
+
+.spanText1 {
+    color: rgb(102, 37, 7);
+    font-weight: bold;
+    transform: scale(1.8);
+}
+
+.banner{
+    align-items: center;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    image-resolution: from-image;
+    image-resolution: 300dpi;
+    image-resolution: from-image 300dpi;
+    image-resolution: 300dpi snap;
+}
